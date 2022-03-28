@@ -1,0 +1,12 @@
+h1 {
+  font-family: "Averia Serif Libre", "Gochi Hand", "Kalam", "Lobster",
+    "Merienda", "NTR", sans-serif, "Playfair Display", cursive, serif;
+
+  font-weight: bold;
+}
+
+p {
+  font-family: "playfaire", serif;
+  font-size: 26px;
+  font-weight: normal;
+}
