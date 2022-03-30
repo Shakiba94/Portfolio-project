@@ -1,12 +1,45 @@
 h1 {
-  font-family: "Averia Serif Libre", "Gochi Hand", "Kalam", "Lobster",
-    "Merienda", "NTR", sans-serif, "Playfair Display", cursive, serif;
+  font-family: "DM Serif Display", "Domine", serif, "Gochi Hand", "Kalam",
+    "Merienda", "NTR", sans-serif, "Playfair Display", serif;
+  font-style: italic;
+
+  font-size: 76px;
 
   font-weight: bold;
 }
 
-p {
-  font-family: "playfaire", serif;
-  font-size: 26px;
+.hero h2 {
+  font-family: "Merienda", "Averia Serif Libre", cursive, "Gochi Hand", "Kalam",
+    "NTR", sans-serif, "Playfair Display", serif;
+
+  font-size: 23px;
   font-weight: normal;
+  line-height: 2;
+}
+
+.hero p {
+  font-family: "Merienda", "Averia Serif Libre", cursive, "Gochi Hand", "Kalam",
+    "NTR", sans-serif, "Playfair Display", serif;
+
+  font-size: 32px;
+  font-weight: normal;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.hero {
+  text-align: center;
+  margin: 80px;
+}
+
+.btn-branding {
+  background: #fc4fff;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  padding: 13px 28px;
+}
+
+.button-link {
+  display: inline-block;
 }
