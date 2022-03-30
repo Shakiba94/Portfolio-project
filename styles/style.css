@@ -1,6 +1,21 @@
+:root {
+  --primary-color: black;
+  --secondry-color: #fff;
+  --primary-font-family: "DM Serif Display", "Domine", serif, "Gochi Hand",
+    "Kalam", "Merienda", "NTR", sans-serif, "Playfair Display", serif;
+
+  --secondary-font-family: "Merienda", "Averia Serif Libre", cursive,
+    "Gochi Hand", "Kalam", "NTR", sans-serif, "Playfair Display", serif;
+}
+
+h1,
+h2,
+p {
+  color: var(--primary-color);
+}
+
 h1 {
-  font-family: "DM Serif Display", "Domine", serif, "Gochi Hand", "Kalam",
-    "Merienda", "NTR", sans-serif, "Playfair Display", serif;
+  font-family: var(--primary-font-family);
   font-style: italic;
 
   font-size: 76px;
@@ -9,8 +24,7 @@ h1 {
 }
 
 .hero h2 {
-  font-family: "Merienda", "Averia Serif Libre", cursive, "Gochi Hand", "Kalam",
-    "NTR", sans-serif, "Playfair Display", serif;
+  font-family: var(--secondary-font-family);
 
   font-size: 23px;
   font-weight: normal;
@@ -18,8 +32,7 @@ h1 {
 }
 
 .hero p {
-  font-family: "Merienda", "Averia Serif Libre", cursive, "Gochi Hand", "Kalam",
-    "NTR", sans-serif, "Playfair Display", serif;
+  font-family: var(--secondary-font-family);
 
   font-size: 32px;
   font-weight: normal;
@@ -29,17 +42,25 @@ h1 {
 
 .hero {
   text-align: center;
-  margin: 80px;
+  margin: 80px 80px 30px;
 }
 
 .btn-branding {
   background: #fc4fff;
-  border-radius: 4px;
+  border-radius: 10px;
   color: #fff;
   font-size: 18px;
   padding: 13px 28px;
+  border: 1;
 }
 
 .button-link {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-design {
+  background: url("/images/Mountain.jpg") no-repeat center fixed;
+  background-size: cover;
 }
