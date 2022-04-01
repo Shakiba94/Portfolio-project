@@ -72,3 +72,7 @@ h1 {
 .navbar-custom {
   background-color: #bb5dae;
 }
+
+.blur {
+  backdrop-filter: blur(5px);
+}
