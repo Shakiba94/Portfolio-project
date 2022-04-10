@@ -144,8 +144,7 @@ h1 {
 }
 
 .about-page-background {
-  background: url("/images/sun.png") no-repeat center fixed;
-  background-size: cover;
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
 }
 
 .weather-app {
@@ -157,13 +156,16 @@ h1 {
     text-align: center;
   }
   .weather-app {
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-top: 20px;
   }
   .about-section-content {
     margin-top: 70px;
   }
   .about-page-heading {
     font-size: 33px;
+  }
+  .paragraph {
+    font-size: 16px;
   }
 }
