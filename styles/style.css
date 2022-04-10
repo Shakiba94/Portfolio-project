@@ -104,13 +104,66 @@ h1 {
 }
 
 .image-custom {
-  max-width: 500px;
+  width: 500px;
   height: 339px;
 }
 
-@media (max-width: 600px) {
-  .image-custom {
-    width: 400px;
-    height: 239px;
+.contact-page-background {
+  background: radial-gradient(
+      circle at 10% 20%,
+      rgb(255, 150, 152) 35.5%,
+      rgb(23, 22, 39) 100.5%
+    )
+    no-repeat center fixed;
+}
+
+.heading-contact-page {
+  text-align: center;
+  font-size: 70px;
+  margin: 30px;
+}
+
+.picture {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.about-page-heading {
+  font-size: 50px;
+  margin: 50px 0 35px;
+}
+
+.about-section-content {
+  margin-top: 150px;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-family: var(--secondary-font-family);
+}
+
+.about-page-background {
+  background: url("/images/sun.png") no-repeat center fixed;
+  background-size: cover;
+}
+
+.weather-app {
+  margin-top: 80px;
+}
+
+@media (max-width: 900px) {
+  .about-section-content {
+    text-align: center;
+  }
+  .weather-app {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .about-section-content {
+    margin-top: 70px;
+  }
+  .about-page-heading {
+    font-size: 33px;
   }
 }
