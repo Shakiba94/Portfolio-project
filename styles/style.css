@@ -143,12 +143,21 @@ h1 {
   font-family: var(--secondary-font-family);
 }
 
-.about-page-background {
-  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
-}
-
 .weather-app {
   margin-top: 80px;
+}
+
+.about-page-background {
+  background: url("/images/sun.png") no-repeat center fixed;
+  background-size: cover;
+}
+
+.about-page-navbar {
+  background-color: #3b0f46;
+}
+
+.button-link-about {
+  margin-top: 50px;
 }
 
 @media (max-width: 900px) {
@@ -156,8 +165,9 @@ h1 {
     text-align: center;
   }
   .weather-app {
-    margin-bottom: 5px;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .about-section-content {
     margin-top: 70px;
@@ -167,5 +177,11 @@ h1 {
   }
   .paragraph {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 389px) {
+  .weather-app {
+    margin-bottom: 15px;
   }
 }
