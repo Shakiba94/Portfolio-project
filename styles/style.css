@@ -81,6 +81,13 @@ h1 {
   font-size: 50px;
 }
 
+.contact-page-icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
 .social-icons {
   display: flex;
   flex-direction: row;
@@ -127,15 +134,16 @@ h1 {
 }
 
 .heading-contact-page {
-  text-align: center;
   font-size: 70px;
-  margin: 30px;
+  margin-top: 60px;
 }
 
 .picture {
-  display: block;
-  margin: 0 auto;
   border-radius: 50%;
+}
+
+.my-picture {
+  margin-top: 75px;
 }
 
 .about-page-heading {
