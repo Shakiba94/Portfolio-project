@@ -206,3 +206,20 @@ h1 {
     margin-bottom: 15px;
   }
 }
+
+@media (max-width: 900px) {
+  .contact-me-section {
+    margin-left: 0;
+  }
+
+  .heading-contact-page {
+    font-size: 55px;
+    margin-left: 20px;
+  }
+  .picture {
+    max-width: 300px;
+  }
+  .contact-page-icons {
+    margin-left: 100px;
+  }
+}
