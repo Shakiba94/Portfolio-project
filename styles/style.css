@@ -88,6 +88,10 @@ h1 {
   margin-left: 130px;
 }
 
+.contact-me-section {
+  margin-left: 90px;
+}
+
 .social-icons {
   display: flex;
   flex-direction: row;
