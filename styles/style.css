@@ -225,10 +225,6 @@ h1 {
   .contact-page-icons {
     margin-left: 110px;
   }
-
-  .index-page-heading {
-    text-align: center;
-  }
 }
 
 @media (max-width: 400px) {
@@ -241,5 +237,11 @@ h1 {
     margin-bottom: 55px;
     margin-right: 20px;
     margin-left: 20px;
+  }
+}
+
+@media (max-width: 420) {
+  .index-page-heading {
+    margin-left: 10px;
   }
 }
