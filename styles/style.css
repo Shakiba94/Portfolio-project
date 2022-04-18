@@ -195,9 +195,11 @@ h1 {
   }
   .about-page-heading {
     font-size: 33px;
+    color: #fff;
   }
   .paragraph {
     font-size: 16px;
+    color: #fff;
   }
 }
 
@@ -214,12 +216,13 @@ h1 {
 
   .heading-contact-page {
     font-size: 55px;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   .picture {
     max-width: 300px;
+    margin-left: 25px;
   }
   .contact-page-icons {
-    margin-left: 100px;
+    margin-left: 110px;
   }
 }
