@@ -191,6 +191,18 @@ h1 {
   color: #9218b1;
 }
 
+.git-icon {
+  max-width: 80px;
+}
+
+.gmail-about {
+  margin-top: 9px;
+}
+
+.linkedin-about {
+  max-width: 80px;
+}
+
 @media (max-width: 900px) {
   .about-section-content {
     text-align: center;
