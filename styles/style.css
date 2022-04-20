@@ -249,9 +249,9 @@ h1 {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .gallery-heading {
-    font-size: 48px;
+    font-size: 38px;
     margin-top: 100;
   }
 
@@ -268,5 +268,20 @@ h1 {
     justify-content: center;
     justify-items: center;
     font-size: 50px;
+  }
+}
+
+@media screen and (width: 740px) {
+  .eliminate-picture {
+    display: none;
+  }
+}
+
+@media screen and (width: 653px),
+  screen and (width: 656px),
+  screen and (width: 667px),
+  screen and (width: 720px) {
+  .eliminate-picture {
+    display: none;
   }
 }
