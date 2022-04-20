@@ -312,12 +312,12 @@ h1 {
   }
 }
 
-@media (max-width: 420) {
+@media (max-width: 420px) {
   .index-page-heading {
     display: flex;
     justify-content: center;
     justify-items: center;
-    font-size: 50px;
+    font-size: 63px;
   }
 }
 
