@@ -235,17 +235,67 @@ h1 {
   .contact-me-section {
     margin-left: 0;
   }
+  .heading-contact-page {
+    font-size: 47px;
+    margin-left: 72px;
+  }
+  .picture {
+    max-width: 300px;
+    margin-left: 45px;
+  }
+  .contact-page-icons {
+    margin-left: 146px;
+  }
+}
 
+@media screen and (width: 360px) {
+  .contact-me-section {
+    margin-left: 0;
+  }
   .heading-contact-page {
     font-size: 47px;
     margin-left: 56px;
   }
   .picture {
     max-width: 300px;
-    margin-left: 25px;
+    margin-left: 22px;
   }
   .contact-page-icons {
-    margin-left: 123px;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (width: 390px) {
+  .contact-me-section {
+    margin-left: 0;
+  }
+  .heading-contact-page {
+    font-size: 47px;
+    margin-left: 69px;
+  }
+  .picture {
+    max-width: 300px;
+    margin-left: 35px;
+  }
+  .contact-page-icons {
+    margin-left: 139px;
+  }
+}
+
+@media screen and (width: 280px) {
+  .contact-me-section {
+    margin-left: 0;
+  }
+  .heading-contact-page {
+    font-size: 37px;
+    margin-left: 40px;
+  }
+  .picture {
+    max-width: 200px;
+    margin-left: 30px;
+  }
+  .contact-page-icons {
+    margin-left: 82px;
   }
 }
 
@@ -284,4 +334,7 @@ h1 {
   .eliminate-picture {
     display: none;
   }
+}
+
+@media screen and (width: 412px) {
 }
