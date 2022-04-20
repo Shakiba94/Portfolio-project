@@ -237,8 +237,8 @@ h1 {
   }
 
   .heading-contact-page {
-    font-size: 55px;
-    margin-left: 25px;
+    font-size: 47px;
+    margin-left: 56px;
   }
   .picture {
     max-width: 300px;
@@ -267,5 +267,6 @@ h1 {
     display: flex;
     justify-content: center;
     justify-items: center;
+    font-size: 50px;
   }
 }
